@@ -20,7 +20,7 @@ import com.github.dockerjava.api.model.Driver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Holidays {
+public class Holidays  {
   @Test
   public void selectOriginCity() throws InterruptedException {
 	  

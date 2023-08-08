@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.yatra.qa.pages.Holidays">
+      <class name="com.yatra.qa.pages.Holidays_test">
         <methods>
-          <include name="selectOriginCity"/>
+          <include name="setup"/>
+          <include name="packageselection"/>
+          <include name="BookDomesticandInternationalHolidays"/>
         </methods>
-      </class> <!-- com.yatra.qa.pages.Holidays -->
+      </class> <!-- com.yatra.qa.pages.Holidays_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
